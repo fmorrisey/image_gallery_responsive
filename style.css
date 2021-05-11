@@ -1,27 +1,37 @@
-:root {
-  font-size: 62.8%;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-img {
-  width: 100%;
+.title {
+  text-align: center;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1040px;
+  margin: 0 auto;
 }
 
 .box {
-  width: 300px;
-  height: 300px;
-  color: #fff;
-  background-color: burlywood;
-  font-size: 4.8rem;
-  margin: 1rem;
+  flex: 1 1 calc(25% - 10px);
+  margin: 5px;
+}
+
+.img-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.row1 {
+  padding-bottom: 56%;
+}
+
+.row2 {
+  padding-bottom: 56%;
+}
+
+img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /*# sourceMappingURL=style.css.map */
