@@ -1,0 +1,27 @@
+:root {
+  font-size: 62.8%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  color: #fff;
+  background-color: burlywood;
+  font-size: 4.8rem;
+  margin: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
